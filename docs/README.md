@@ -55,3 +55,9 @@ This project was a collaborative effort by our team:
 - [@MatthewSp1](https://github.com/MatthewSp1)
 - [@noahlepage](https://github.com/noahlepage)
 - [@ShawnYs-codemtl](https://github.com/ShawnYs-codemtl)
+
+## Contribution History
+
+This is a reupload of a project, statistics of the original repository are as follows.
+<img width="916" alt="image" src="https://github.com/user-attachments/assets/fa27a928-7734-4d4c-b972-d99410000082" />
+
