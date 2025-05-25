@@ -1,6 +1,6 @@
 # Mars Rover Simulator
 
-Simulate Mars rover missions using real terrain data and advanced pathfinding algorithms.
+A project to learn the core fundamentals of graphics including screen drawings and a custom built UI library. Simulate Mars rover missions using real terrain data and advanced pathfinding algorithms.
 
 <p align="center">
   <img src="./homescreen.png" alt="Home Screen" width="320"/>
