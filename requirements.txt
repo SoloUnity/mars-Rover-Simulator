@@ -1,0 +1,6 @@
+pygame
+pyinstaller
+pymongo
+rasterio
+tqdm
+python-dotenv

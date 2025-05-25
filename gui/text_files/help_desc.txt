@@ -1,0 +1,56 @@
+
+[title] How to Run a Simulation
+
+[subtitle]1. Create a new project.
+- Click 'Project' -> 'New Project'. A new tab will appear with a map of the full Mars terrain.
+
+[subtitle]2. Select a bounding box within the map to define an area of interest.
+- Click on the map and hold the mouse button to drag a bounding box. 
+- If the box is too small, it will appear red, that is because small maps are too pixelated to be useable with the given satellite image.
+- Once the mouse is released and the size of the box is adequate, a confirmation and reset button will appear. 
+- Click on the 'Confirm' button to zoom into the selected area. Click on the 'Reset' button to redefine the bounding box.
+
+[subtitle]3. Add rover. 
+- Once the map is zoomed in, the 'Add Rover' button will appear to be available in the header and on the screen.
+- Clicking on the button will display a popup window to select a rover.
+- To instantiate a new rover, fill out the 'Create Rover' form, which allows for customizing the pathfinding and rover hardware. 
+- When creating a new rover, the rover preset dropdown allows for choosing rover hardware, the specifications linked with the chosen hardware
+will appear on the right of the form. 
+- The rover's pathfinding can be customized in terms of its main distance calculation method and heuristics. 
+- The heuristics are weighted values used for AI pathfinding, the sliders can be used to increase a parameter's priority. 
+- Heuristics include: altitude stability, solar exposure, energy efficiency, and low altitude. 
+
+- To select an existing rover previously configured, fill out the 'Existing Rovers' form.
+
+- Once selected, the current rover will show up in the middle of the header.
+
+[subtitle]4. Select path markers.
+- At this point, the screen can be clicked to place markers on the map. 
+- Place up to 5 markers to visit with the rover.
+- When 2 markers are placed, a button 'Find Path' will appear. Once the button is clicked, the path optimized for the chosen rover will be calculated.
+- When 3 or more markers are placed, two buttons appear, 'Find Optimal Path' and 'Find Ordered Path'.
+- Click 'Find Optimal Path' to calculate the chosen rover's most optimal path for visiting all the markers selected.
+- Click 'Find Ordered Path' to calculate the chosen rover's most optimal path for visiting all the markers selected in order.
+- Click the "Reset" button to clear all markers and place new ones.
+
+[subtitle]5. View path.
+- Once path calculation is instantiated, a progress bar will show up to indicate the generation of the map.
+- The map is generated using real Mars terrain data, this can take up to 2 minutes. 
+- Then, the progress bar will indicate the computation of the pathfinding algorithm for the chosen rover.
+- Once the path is computed, it will appear in blue on the screen. 
+- The 'Path and Rover statistics' button will become available, click it to get further information about the simulated path.
+
+[title] Extra Features
+[subtitle]1. Creating multiple projects.
+- You can have up to 5 tabs open at the same time. The user is be able to switch between the tabs by clicking on the desired tab. 
+- These tabs can be created by clicking 'New Project'. 
+- A tab can be deleted by clicking the red 'X' button.
+- A tab can be renamed by double clicking it, the text will become blue when editable. 
+- Once edited, the tab name can be saved by clicking anywhere on the screen or pressing 'Enter'. Press 'Escape' to revert edits.
+
+
+[subtitle]2. Load, save, delete project
+- You can save a project to the database to load it again later on. Click 'Project' -> 'Save Project' to save the current active project. 
+- To load a saved project, create a new project and then click 'Project' -> 'Load Project'.
+- A list of saved projects will appear if any exist, and the user will be able to select one and load it. It will display the state it was saved at. 
+- To delete a project from the database, click 'Project' -> 'Delete Project'. 
