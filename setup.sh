@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Installing Python dependencies..."
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 echo "Downloading Mars terrain data... (≈ 11GB)"
 echo "This may take a while..."
